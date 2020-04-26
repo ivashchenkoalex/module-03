@@ -1,0 +1,95 @@
+body {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.site-navigation {
+  width: 900px;
+  margin: auto;
+  background 0;
+  padding: 75px 150px 105px 310px;
+  font-size: 14px;
+  list-style: none;
+}
+.menu-item {
+display: inline;
+margin-right: 120px;
+text-align: center;
+}
+
+a:hover{
+  color: #03a9f4;
+}
+
+.site-navigation a {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 17px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.picture {
+  width: 100%;
+}
+
+.articles {
+  padding: 30px;
+  width: 100%;
+  height: auto;
+}
+.article {
+  border: 0px solid white;
+  width: 470px;
+  height: auto;
+  display: inline-block;
+  margin: 70px;
+  
+}
+.article_img {
+  width: 90%;
+  margin: 20px auto;
+}
+.article_hash {
+  font-size: 14px;
+  line-height: 17px;
+  color: #b4ad9e;
+  font-family: 'Ubuntu', sans-serif; 
+  text-transform: uppercase;
+}
+.article_title h1 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.article_description {
+  text-align: justify;
+}
+.load {
+  position: absolute;
+  left: 50%;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 75px;
+  font-size: 20px;
+  font-weight: 400;
+  }
