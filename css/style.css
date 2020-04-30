@@ -5,13 +5,21 @@ body {
   line-height: 24px;
 }
 
-.wrapper {
-  margin: 0px;
+.page-header {
+  margin-left: auto;
+  /* margin-right: auto; */
   border: 0px;
   width: 900px;
-  padding: 50px 0px 50px 100px;
+  padding: 0px 0px 0px 0px;
+}
+.site-navigation {
+  text-align: center;
 }
 
+.site-navigation li {
+  display: inline-block;
+  margin: 75px 60px 0px 0px;
+}
 .site-navigation a {
   font-weight: 400;
   text-transform: uppercase;
@@ -42,31 +50,25 @@ input[type="radio"].visually-hidden {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-li {
-  margin: 0px;
-  border: 0px;
-  width: 420px;
-  padding: 0px 4px 0px 0px;
-  display: inline-block;
-}
 
-.articles {
-  padding: 0px;
+.wrapper {
   width: 900px;
-  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
 }
 
-.article_list {
-  list-style: none;
-  /* width: 420px */
-  /* display: block; */
-  margin: 0px 0px 0px 0px;
+.article li {
+  list-style-type: none;
+  display: inline-block;
+  width: 420px;
+  margin-top: 100px;
 }
 
 .article_list_image {
-  /* width: 420;
+  width: 420;
   display: block;
-  margin: 0px 0px 0px 20px ; */
+  margin: 0px 0px 0px 20px;
 }
 .article_list_hash {
   font-size: 14px;
@@ -89,9 +91,11 @@ li {
 
 button {
   display: block;
-  margin: 0px auto;
+  margin: auto;
   width: 150px;
   height: 75px;
   font-size: 20px;
-  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  background-color: white;
 }
