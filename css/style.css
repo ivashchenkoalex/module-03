@@ -44,6 +44,10 @@ input[type="radio"].visually-hidden {
   margin: 0 auto;
   padding: 0px;
 }
+
+ul {
+  padding-inline-start: 0px;
+}
 .article_left {
   float: left;
   margin: 0px 0px 60px 0px;
