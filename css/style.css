@@ -11,7 +11,7 @@ body {
 
 .site-navigation li {
   display: inline-block;
-  margin: 75px 60px 75px 0px;
+  margin: 0px 60px 0px 0px;
 }
 .site-navigation a {
   font-weight: 400;
